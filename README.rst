@@ -33,9 +33,9 @@ Help
                             variable SLACK_URL
       -c, --channels CHANNEL [CHANNEL ...]
 
-Example usage in Ansible
+Example usage in an Ansible Playbook
 
-.. code::
+.. code:: yaml
 
     - name: notify deploy
       when: image|changed or force is defined
